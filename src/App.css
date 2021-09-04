@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+form input {
+  height: 26px;
+  border-radius: 5%;
+  display: flex;
+  vertical-align: auto;
+}
+
+form button {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: darkgreen;
+  height: 30px;
+  width: 120px;
+}
+
+h3{
+  margin: 0;
+}
+
+.list{
+  display: flex;
+  margin: 5px;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.btn-delete {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
